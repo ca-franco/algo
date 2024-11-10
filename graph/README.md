@@ -1,8 +1,8 @@
 # Graph
 ## Graph Glossary
-    -   Directed Edges
+    -   Directed Edges.
 ![Ex: One way Road](https://github.com/ca-franco/algo/blob/main/assets/images/directededge.png)
-    -   Undirected Edge
+    -   Undirected Edges.
 ![Ex: Rail Road](https://github.com/ca-franco/algo/blob/main/assets/images/undirectededge.png)
 ### Directed Graph
 ### Undirected Graph
