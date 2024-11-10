@@ -1,6 +1,9 @@
 # Graph
 ## Graph Glossary
 1. Directed Edges.
+- Ordered pair of vertices(u,v)
+- First vertex u is the origin
+- Second vertex v is the destination
 ![Ex: One way Road](https://github.com/ca-franco/algo/blob/main/assets/images/directededge.png)
 2. Undirected Edges.
 ![Ex: Rail Road](https://github.com/ca-franco/algo/blob/main/assets/images/undirectededge.png)
