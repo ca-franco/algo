@@ -12,9 +12,52 @@
    
 ![Ex: Rail Road](https://github.com/ca-franco/algo/blob/main/assets/images/undirectededge.png)
 
-### Directed Graph
-### Undirected Graph
-### Graph with no cycle `Tree`. Acyclic connected graph
-### self loop vertices
-### Degree
-### Subgraph
+3. Directed Graph
+    - All the edges are directed.
+![Ex: Route network](https://github.com/ca-franco/algo/blob/main/assets/images/directedgraph.png)
+
+4. Undirected Graph
+    - All the edges are undirected
+![Ex: Flight network](https://github.com/ca-franco/algo/blob/main/assets/images/undirectedgraph.png)
+ 
+5. Adjecent Vertices
+    - When 2 vertices are connected the connected vertices are called adjecent and edges are called 
+      `incident on` both vertices.
+
+6. Graph as Tree
+    - Graph with no cycle `Tree`. A tree is Acyclic connected graph
+![Ex: Tree as Graph](https://github.com/ca-franco/algo/blob/main/assets/images/treegraph.png)
+
+7. Self loop
+    - edge that connects to itself.
+![Ex: Self Loop](https://github.com/ca-franco/algo/blob/main/assets/images/selfloop.png)
+ 
+8. Degree
+    - Degree of vertex is the number of edges that are `incident on` it
+
+9. Subgraph
+    - A subgraph is a subset of a graph's edge (with associated vertices) that form a graph.
+
+10. Path
+    - A path is in a graph if sequence of adjecent vertices. simple path if path has no
+    repeated vertices in the graph
+![Ex: Path](https://github.com/ca-franco/algo/blob/main/assets/images/path.png)
+
+11. Cycle
+    - cycle is path with adjecent vertices with no repeated vertices and `simple cycle` if
+    no repeated vertices except for starting and ending.
+![Ex: cycle](https://github.com/ca-franco/algo/blob/main/assets/images/cycle.png)
+
+12. Strongly connected graph
+    - If connection between two vertices (u,v) and (v,u) is present then 
+    the connectivity is strong and strongly connected graph.
+
+13. Connected components
+    - In a connected graph if all the vertices are not connected, it is called connected components.
+![Ex: connectedcomponents](https://github.com/ca-franco/algo/blob/main/assets/images/connectedcomponents.png)
+
+14. Directed Acyclic Graph
+    - The vertices for DAG if all the vertices are connected and if there is no cycle it is called DAG
+![Ex: dag](https://github.com/ca-franco/algo/blob/main/assets/images/dag.png)
+
+
