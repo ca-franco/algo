@@ -1,4 +1,21 @@
 # Graph
+## Graph Traversal
+    Multiple ways we can depict the graph traversal few are
+    - Edge List
+    Stores all the edges in the list and we need to parse through the list inorder to find the 
+    required edge.
+    - Adjscent Matrix
+    - Adjscent List
+    - Adjscent Map/Set
+
+### Time and space complxity consolidation
+    | Type of representation | Time complexity      | Space complexity |
+    |------------------------|----------------------|------------------|
+    | edge list              | > O(|E|) /O(m)       |                  |
+    |                        | to find neighbours   |                  |
+    |                        | of all vertexes      |                  |
+    |                        |   O(m.n)i = O(n^2.n) = O(n^3)|             |                  
+    |------------------------|----------------------|---------------------|
 ## Graph Glossary
 1. Directed Edges.
     - Ordered pair of vertices(u,v).
