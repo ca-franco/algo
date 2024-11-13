@@ -3,10 +3,10 @@
     Multiple ways we can depict the graph traversal few are
     - Edge List
     Stores all the edges in the list and we need to parse through the list inorder to find the 
-    required edge.
-    - Adjscent Matrix
-    - Adjscent List
-    - Adjscent Map/Set
+    required edge. As mentioned in the ![Time and space complexity consolidation]()
+    - Adjacent Matrix
+    - Adjacent List
+    - Adjacent Map/Set
 
 ### Time and space complxity consolidation
     | Type of representation | Time complexity      | Space complexity |
