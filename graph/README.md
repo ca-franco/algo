@@ -11,11 +11,18 @@
 ### Time and space complxity consolidation
     | Type of representation | Time complexity      | Space complexity |
     |------------------------|----------------------|------------------|
-    | edge list              | > O(|E|)=O(m)        |                  |
-    |                        | to find neighbours   |                  |
+    | edge list              |  O(|E|)=O(m)         |  O(n(vertices) + |
+    |                        | to find neighbours   |    m(edges))     |
     |                        | of all vertexes      |                  |
     |                        |O(m.n)=O(n^2.n)=O(n^3)|                  |                  
     |------------------------|----------------------|------------------|
+    | Adj List               |  O(m) if m           |  O(m+n)          |
+    |                        |   edges are there    |                  |
+    |                        |                      |                  |
+    |------------------------|----------------------|------------------|
+    | Adj Matrix             |  O(n)                | O(n^2) =n(n-1)/2 |
+    |------------------------------------------------------------------|  
+    
 ## Graph Glossary
 1. Directed Edges.
     - Ordered pair of vertices(u,v).
