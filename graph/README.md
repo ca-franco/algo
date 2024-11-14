@@ -7,6 +7,9 @@
     - Adjacent Matrix
     - Adjacent List
     - Adjacent Map/Set
+    - Euler cycle / Euler path
+    - Hamilton cycle / Hamilton path
+    ![Reference Path](https://www.geeksforgeeks.org/difference-between-hamiltonian-path-and-eulerian-path/?ref=asr6)
 
 ### Time and space complexity consolidation
     | Type of representation | Time complexity      | Space complexity |
@@ -63,6 +66,7 @@
  
 8. Degree
     - Degree of vertex is the number of edges that are `incident on` it
+    - 
 
 9. Subgraph
     - A subgraph is a subset of a graph's edge (with associated vertices) that form a graph.
