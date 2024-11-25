@@ -1,4 +1,24 @@
 from collections import deque
+'''
+ /*********************************************************************************************************************************
+     * Time Complexity      : O(V + E), where V is the number of vertices and E is the number of edges.
+     * Space Complexity     : O(V), due to the in-degree array, adjacency list, and the queue used during traversal.
+     *********************************************************************************************************************************
+     * 1. Calculate In-Degree:
+     *      Initialize an array to store in-degrees for all vertices.
+     *      For each vertex, traverse its adjacency list and increment the in-degree of adjacent vertices.
+     * 2. Initialize Queue:
+     *      Add all vertices with in-degree 0 (no dependencies) to a queue.
+     * 3. Process Queue:
+     *      While the queue is not empty:
+     *          Dequeue a vertex, add it to the topologically sorted list.
+     *          For each adjacent vertex, reduce its in-degree by 1.
+     *          If an adjacent vertex's in-degree becomes 0, add it to the queue.
+     * 4. Check for Cycles:
+     *      If all vertices are processed (sorted list contains all vertices), print the topological order.
+     *      If not, there is a cycle in the graph.
+     *********************************************************************************************************************************/
+'''
 
 class Graph:
     def __init__(self, vertexes, isDirected):
