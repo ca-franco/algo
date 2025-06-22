@@ -5,6 +5,7 @@
     Stores all the edges in the list and we need to parse through the list inorder to find the 
     required edge. As mentioned in the [Time and space complexity consolidation](#-time-and-space-complexity-consolidation)
     - Adjacent Matrix
+    Adjacency matrix is good to represent dense matrix
     - Adjacent List
     - Adjacent Map/Set
     - Euler cycle / Euler path
@@ -23,8 +24,13 @@
     |                        |   edges are there    |                  |
     |                        |                      |                  |
     |------------------------|----------------------|------------------|
-    | Adj Matrix             |  O(n)                | O(n^2) =n(n-1)/2 |
+    | Adj Matrix             |  O(n^2) for          |                  |
+    |                        | initialization       |  O(n^2)          |
     |------------------------------------------------------------------|  
+### Graph Traversal
+1. Depth First Search (DFS)
+    
+2. Breadth First Search (BFS)
     
 ## Graph Glossary
 1. Directed Edges.
