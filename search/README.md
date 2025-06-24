@@ -1,7 +1,11 @@
-# Search and Sorting
+# Search
 
 ## Binary Search
 Binary search for target in an array which is already sorted.
+
+> Note:
+> The search space is mostly the explict but at times it can be implict
+
 
 <pre>'''python
 def findTarget(nums: List[int], target: int) -> int:
@@ -24,54 +28,16 @@ def findTarget(nums: List[int], target: int) -> int:
 Time Complexity: O(log(n)
 Space Complexity: O(1)
 
-### Defining Upper Bound  and Lower Bound
-To understand the niggles for binary search with duplicate numbers let us 
-consider this case:
-
-Assume an array with 1,2,3,4,4,4,5,6 if asked to find the first and last 
-occurence of a target number assume 4 in this case, how should we approach 
-this problem
-
-Time Complexity: O(log(n))
-Memory Complexity: O(1)
-<pre>''' python
-
-def findFirstLastOccurenceOfNumber(nums: List[int], target: int) -> List[int]:
-    lowerBoundNumber = findLowerBoundNumberhelper(nums, target)
-    upperBoundNumber = findUpperBoundNumberHelper(nums, target)
-
-    return [lowerBoundNumber, upperBoundNumber)
-
-def findLowerBoundNumberhelper(nums, target) -> int:
-    left, right = 0, len(nums)-1
-
-    while left < right:
-        median = (left + right) // 2
-        
-        if target < nums[median]:
-            right = median - 1
-        elif target > nums[median]:
-            left = median + 1
-        else:
-            right = median
-
-    return left if nums and nums[left] == target else -1
-
-def findUpperBoundNumberHelper(nums, target) -> int:
-        left, right = 0, len(nums)-1
-
-        while left < right:
-            median = ((left + right) // 2) +1
-            
-            if target < nums[median]:
-                right = median - 1
-            elif target > nums[media]:
-                left = median + 1
-            else:
-                left = median
-        return right if nums and nums[right] == median else -1
-
-
-    '''
-</pre>
-
+## Different problem sets which need implict and explicit search spaces
+-   Sorted Arrays
+    -   [First and last occurence of the a Number](src/find_first_last_occurrence_of_number.py)
+    -   Find the insertion index
+-   Partially sorted Arrays
+    -   Find the target in rotated sorted array
+-   Non-intiutive search
+    -   Cutting Wood
+    -   Local maxima in Array
+-   Multiple arrays
+    -   Find the median from two sorted arrays
+-   Matrix search
+    -   Matrix search
