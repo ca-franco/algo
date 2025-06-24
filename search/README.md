@@ -40,4 +40,4 @@ Space Complexity: O(1)
 -   Multiple arrays
     -   Find the median from two sorted arrays
 -   Matrix search
-    -   [Matrix search](src/matrx_search.py)
+    -   [Matrix search](src/matrix_search.py)
