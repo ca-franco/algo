@@ -31,7 +31,7 @@ Space Complexity: O(1)
 ## Different problem sets which need implict and explicit search spaces
 -   Sorted Arrays
     -   [First and last occurence of the a Number](src/find_first_last_occurrence_of_number.py)
-    -   Find the insertion index
+    -   [Find the insertion index](src/find_insertion_index.py)
 -   Partially sorted Arrays
     -   Find the target in rotated sorted array
 -   Non-intiutive search
