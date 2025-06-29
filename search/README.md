@@ -33,11 +33,15 @@ Space Complexity: O(1)
     -   [First and last occurence of the a Number](src/find_first_last_occurrence_of_number.py)
     -   [Find the insertion index](src/find_insertion_index.py)
 -   Partially sorted Arrays
-    -   Find the target in rotated sorted array
+    -   [Find the target in rotated sorted array](src/find_target_rotatable_array.py)
 -   Non-intiutive search
-    -   Cutting Wood
+    -   [Cutting Wood](src/find_minimum_wood_cuts.py)
     -   Local maxima in Array
 -   Multiple arrays
     -   [Find the median from two sorted arrays](src/find_median_from_two_sorted_array.py)
 -   Matrix search
     -   [Matrix search](src/matrix_search.py)
+-   More problems for implicit search space
+    -   Sqrt(x) find the square root of x
+    -   Valid prefect squares
+    -   Arranging coins
