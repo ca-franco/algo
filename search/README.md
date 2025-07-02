@@ -42,6 +42,6 @@ Space Complexity: O(1)
 -   Matrix search
     -   [Matrix search](src/matrix_search.py)
 -   More problems for implicit search space
-    -   Sqrt(x) find the square root of x
+    -   [Sqrt(x) find the square root of x](src/find_sqrt.py)
     -   Valid prefect squares
     -   Arranging coins
